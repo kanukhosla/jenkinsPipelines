@@ -1,0 +1,13 @@
+// Jenkinsfile (scripted)
+node{
+  stage('Build'){
+    echo "This is the build stage";
+  }
+
+  stage('Test'){
+    echo "Testing the package";
+    }
+  stage ('Deploy'){
+    echo "Deploying the package"
+  }
+}
